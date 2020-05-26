@@ -1,5 +1,11 @@
 /* Add your own CSS code below */
-.site-wrapper {
+
+.countries--first {
   display: flex;
-  flex-direction: column;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+.countries--third {
+  display: flex;
+  flex-direction: column-reverse;
 }
