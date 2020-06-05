@@ -1,1 +1,48 @@
 /* Add your own CSS code below */
+
+nav.main-nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+article {
+  max-width: 50em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+article p {
+  line-height: 1.5;
+}
+
+footer span {
+  color: #c85308;
+}
+
+@media (min-width: 992px) {
+  .hero h2 {
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 776px) {
+  header.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media (min-width: 776px) {
+  .views {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .views a {
+    margin: 15px;
+  }
+  .views a:last-child {
+    margin-left: auto;
+  }
+}
